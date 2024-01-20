@@ -1,0 +1,19 @@
+{{ include('partials/head.twig') }}
+{{ include('partials/navbar.twig') }}
+
+<div class='hero'>
+    <h1>Create Task</h1>
+    <form method="post" action="/" class="create-form">
+        <div>
+            <label for="task-name">Task Name</label>
+            <input name="task-name" id="task-name">
+        </div>
+
+        <div>
+            <label for="task-description">Task Description</label>
+            <input name="task-description" id="task-description">
+        </div>
+
+        <button type="submit" class="button">Create</button>
+    </form>
+</div>
