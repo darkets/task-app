@@ -47,3 +47,8 @@ Before you begin with the installation, ensure that your system meets the follow
       ```
 
 Now, you can access the Task Manager app by visiting [http://localhost:8000](http://localhost:8000) in your web browser.
+
+## Screenshots
+![Screenshot 1](https://i.imgur.com/dNFULMT.png)
+![Screenshot 2](https://i.imgur.com/ddvZQ4j.png)
+![Screenshot 3](https://i.imgur.com/Jrbhirz.png)
