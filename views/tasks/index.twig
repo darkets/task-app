@@ -22,6 +22,7 @@
                 <div>
                     <h2>{{ task.name }}</h2>
                     <p>{{ task.description }}</p>
+                    <p class="created-at">Date created: {{ task.createdAt }}</p>
                 </div>
 
                 <form method="post" action="/delete/{{ task.id }}" style="display: inline;">
