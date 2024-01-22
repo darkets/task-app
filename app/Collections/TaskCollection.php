@@ -17,4 +17,9 @@ class TaskCollection
     {
         return $this->tasks;
     }
+
+    public function isEmpty(): bool
+    {
+        return empty($this->tasks);
+    }
 }

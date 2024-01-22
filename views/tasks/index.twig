@@ -8,6 +8,15 @@
     </div>
 
     <div class="tasks-container">
+        {% if tasks.isEmpty %}
+            <div class="task-container">
+                <div>
+                    <h2>There are no current tasks</h2>
+                    <p>Add one by pressing the 'Create' button above.</p>
+                </div>
+            </div>
+        {% endif %}
+
         {% for task in tasks.get %}
             <div class="task-container">
                 <div>
